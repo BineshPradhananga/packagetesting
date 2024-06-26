@@ -1,0 +1,18 @@
+{
+    "name": "your-vendor/your-package",
+    "description": "A short description of your package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "YourVendor\\YourPackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YourVendor\\YourPackage\\YourPackageServiceProvider"
+            ]
+        }
+    }
+}
